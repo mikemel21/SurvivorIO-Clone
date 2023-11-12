@@ -1,8 +1,131 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=20 format=3 uid="uid://d0hghgi803gub"]
 
-[sub_resource type="RectangleShape2D" id=1]
+[ext_resource type="Script" path="res://Scenes/Player.gd" id="1_oq46m"]
+[ext_resource type="Texture2D" uid="uid://bbaq27gpkd8vr" path="res://Assets/Character-Base-Topdown/SHEEFT/IDLE/character-topdown-idle-cycle-down.png" id="2_usveo"]
+[ext_resource type="Texture2D" uid="uid://ck3yx85d0o0cf" path="res://Assets/Character-Base-Topdown/SHEEFT/IDLE/character-topdown-idle-cycle-right.png" id="3_atbxa"]
+[ext_resource type="Texture2D" uid="uid://csgjno8nrn0kp" path="res://Assets/Character-Base-Topdown/SHEEFT/WALK/character-topdown-walk-cycle-right.png" id="4_1un5w"]
 
-[node name="Player" type="Area2D"]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_vhwnf"]
+size = Vector2(20, 30)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nev0s"]
+atlas = ExtResource("2_usveo")
+region = Rect2(0, 0, 14, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7133g"]
+atlas = ExtResource("2_usveo")
+region = Rect2(14, 0, 14, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jrq4e"]
+atlas = ExtResource("2_usveo")
+region = Rect2(28, 0, 14, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0shxq"]
+atlas = ExtResource("2_usveo")
+region = Rect2(42, 0, 14, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_w1di4"]
+atlas = ExtResource("2_usveo")
+region = Rect2(56, 0, 14, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vblyw"]
+atlas = ExtResource("3_atbxa")
+region = Rect2(0, 0, 13, 21)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mb0j6"]
+atlas = ExtResource("3_atbxa")
+region = Rect2(13, 0, 13, 21)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_el8ie"]
+atlas = ExtResource("3_atbxa")
+region = Rect2(26, 0, 13, 21)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mim4t"]
+atlas = ExtResource("3_atbxa")
+region = Rect2(39, 0, 13, 21)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_88dmb"]
+atlas = ExtResource("4_1un5w")
+region = Rect2(0, 0, 13, 21)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_o1rym"]
+atlas = ExtResource("4_1un5w")
+region = Rect2(13, 0, 13, 21)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_10yvb"]
+atlas = ExtResource("4_1un5w")
+region = Rect2(26, 0, 13, 21)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7qrfr"]
+atlas = ExtResource("4_1un5w")
+region = Rect2(39, 0, 13, 21)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_xodj8"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nev0s")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7133g")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jrq4e")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0shxq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_w1di4")
+}],
+"loop": true,
+"name": &"player_idle_down",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vblyw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mb0j6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_el8ie")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mim4t")
+}],
+"loop": true,
+"name": &"player_idle_right",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_88dmb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_o1rym")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_10yvb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7qrfr")
+}],
+"loop": true,
+"name": &"player_run",
+"speed": 5.0
+}]
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+scale = Vector2(2, 2)
+script = ExtResource("1_oq46m")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-shape = SubResource( 1 )
+position = Vector2(0, 1)
+shape = SubResource("RectangleShape2D_vhwnf")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_xodj8")
+animation = &"player_run"

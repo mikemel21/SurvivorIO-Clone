@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://crdkfmy0cfrqj"]
+
+[ext_resource type="Texture2D" uid="uid://swp3ttpq5xvo" path="res://Assets/Heroes/Rogue/Idle/Idle-Sheet.png" id="2_dskxy"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_1xq8m"]
+texture = ExtResource("2_dskxy")
+texture_region_size = Vector2i(32, 32)
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_kq05b"]
+tile_size = Vector2i(64, 64)
+sources/0 = SubResource("TileSetAtlasSource_1xq8m")
+
+[node name="TileMap" type="TileMap"]
+tile_set = SubResource("TileSet_kq05b")
+format = 2

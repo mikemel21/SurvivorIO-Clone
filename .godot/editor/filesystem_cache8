@@ -1,0 +1,160 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1699643897
+default_env.tres::Environment::7358709288542225623::1699643897::0::1::::<><>::
+icon.png::CompressedTexture2D::2789359134785045215::1699377663::1699383625::1::::<><>::
+README.md::TextFile::-1::1699382199::0::1::::<><>::
+::res://Assets/::1699643928
+::res://Assets/Character-Base-Topdown/::1699643928
+Read me... Please....txt::TextFile::-1::1699643928::0::1::::<><>::
+::res://Assets/Character-Base-Topdown/GIFS/::1699643928
+::res://Assets/Character-Base-Topdown/GIFS/IDLE/::1699643928
+::res://Assets/Character-Base-Topdown/GIFS/JUST SWORD/::1699643928
+::res://Assets/Character-Base-Topdown/GIFS/WALK/::1699643928
+::res://Assets/Character-Base-Topdown/GIFS/WITH SWORD/::1699643928
+::res://Assets/Character-Base-Topdown/GIFS/WITHOUT SWORD/::1699643928
+::res://Assets/Character-Base-Topdown/SHEEFT/::1699643928
+::res://Assets/Character-Base-Topdown/SHEEFT/IDLE/::1699643928
+character-topdown-idle-cycle-down.png::CompressedTexture2D::2457630906361911671::1699643928::1699643932::1::::<><>::
+character-topdown-idle-cycle-right.png::CompressedTexture2D::5534032441751388557::1699643928::1699643932::1::::<><>::
+::res://Assets/Character-Base-Topdown/SHEEFT/JUST SWORD/::1699643928
+character-sword-attack-down.png::CompressedTexture2D::6866786275021174290::1699643928::1699643932::1::::<><>::
+character-sword-attack-left.png::CompressedTexture2D::8675742692362090804::1699643928::1699643932::1::::<><>::
+character-sword-attack-right.png::CompressedTexture2D::7941051926343724504::1699643928::1699643932::1::::<><>::
+character-sword-attack-up.png::CompressedTexture2D::5894962774099677683::1699643928::1699643932::1::::<><>::
+::res://Assets/Character-Base-Topdown/SHEEFT/WALK/::1699643928
+character-topdown-walk-cycle-down.png::CompressedTexture2D::3304017862103730125::1699643928::1699643932::1::::<><>::
+character-topdown-walk-cycle-right.png::CompressedTexture2D::6049197274570171679::1699643928::1699643932::1::::<><>::
+character-topdown-walk-cycle-up.png::CompressedTexture2D::4741215902750522316::1699643928::1699643932::1::::<><>::
+::res://Assets/Character-Base-Topdown/SHEEFT/WITH SWORD/::1699643928
+character-topdown-attack-down.png::CompressedTexture2D::3551442845778709077::1699643928::1699643932::1::::<><>::
+character-topdown-attack-left.png::CompressedTexture2D::3950496740121276885::1699643928::1699643932::1::::<><>::
+character-topdown-attack-right.png::CompressedTexture2D::7972169996981826163::1699643928::1699643932::1::::<><>::
+character-topdown-attack-up.png::CompressedTexture2D::5792545725277926005::1699643928::1699643932::1::::<><>::
+::res://Assets/Character-Base-Topdown/SHEEFT/WITHOUT SWORD/::1699643928
+character-topdown-attack-down-no-sword.png::CompressedTexture2D::4398158602200283894::1699643928::1699643932::1::::<><>::
+character-topdown-attack-left-no-sword.png::CompressedTexture2D::5894202305049342302::1699643928::1699643932::1::::<><>::
+character-topdown-attack-right-no-sword.png::CompressedTexture2D::4595907799212488320::1699643928::1699643932::1::::<><>::
+character-topdown-attack-up-no-sword.png::CompressedTexture2D::3556990904202391298::1699643928::1699643932::1::::<><>::
+::res://Assets/Character-Base-Topdown/_BASE/::1699643929
+::res://Assets/Enemy/::1699382254
+::res://Assets/Enemy/Orc Crew/::1699382254
+::res://Assets/Enemy/Orc Crew/Orc/::1699382254
+::res://Assets/Enemy/Orc Crew/Orc/Death/::1699383625
+Death-Sheet.png::CompressedTexture2D::278355312594780708::1699382254::1699383625::1::::<><>::
+::res://Assets/Enemy/Orc Crew/Orc/Idle/::1699383625
+Idle-Sheet.png::CompressedTexture2D::6146320919445005978::1699382254::1699383625::1::::<><>::
+::res://Assets/Enemy/Orc Crew/Orc/Run/::1699383625
+Run-Sheet.png::CompressedTexture2D::6254988490545969347::1699382254::1699383625::1::::<><>::
+::res://Assets/Enemy/Orc Crew/Orc - Rogue/::1699382254
+::res://Assets/Enemy/Orc Crew/Orc - Rogue/Death/::1699383625
+Death-Sheet.png::CompressedTexture2D::7768003689895644521::1699382254::1699383625::1::::<><>::
+::res://Assets/Enemy/Orc Crew/Orc - Rogue/Idle/::1699383625
+Idle-Sheet.png::CompressedTexture2D::1240700973971723865::1699382254::1699383625::1::::<><>::
+::res://Assets/Enemy/Orc Crew/Orc - Rogue/Run/::1699383625
+Run-Sheet.png::CompressedTexture2D::1953861784207399248::1699382254::1699383625::1::::<><>::
+::res://Assets/Enemy/Orc Crew/Orc - Shaman/::1699382254
+::res://Assets/Enemy/Orc Crew/Orc - Shaman/Death/::1699383625
+Death-Sheet.png::CompressedTexture2D::6423430095395668567::1699382254::1699383625::1::::<><>::
+::res://Assets/Enemy/Orc Crew/Orc - Shaman/Idle/::1699383625
+Idle-Sheet.png::CompressedTexture2D::3418378619361197503::1699382254::1699383625::1::::<><>::
+::res://Assets/Enemy/Orc Crew/Orc - Shaman/Run/::1699383625
+Run-Sheet.png::CompressedTexture2D::3849278308926865972::1699382254::1699383625::1::::<><>::
+::res://Assets/Enemy/Orc Crew/Orc - Warrior/::1699382254
+::res://Assets/Enemy/Orc Crew/Orc - Warrior/Death/::1699383625
+Death-Sheet.png::CompressedTexture2D::7716305028556736039::1699382254::1699383625::1::::<><>::
+::res://Assets/Enemy/Orc Crew/Orc - Warrior/Idle/::1699383625
+Idle-Sheet.png::CompressedTexture2D::6802112317682898914::1699382254::1699383625::1::::<><>::
+::res://Assets/Enemy/Orc Crew/Orc - Warrior/Run/::1699383625
+Run-Sheet.png::CompressedTexture2D::1174237165505148273::1699382254::1699383625::1::::<><>::
+::res://Assets/Enemy/Skeleton Crew/::1699382254
+::res://Assets/Enemy/Skeleton Crew/Skeleton - Base/::1699382254
+::res://Assets/Enemy/Skeleton Crew/Skeleton - Base/Death/::1699383625
+Death-Sheet.png::CompressedTexture2D::9016665250919099634::1699382254::1699383625::1::::<><>::
+::res://Assets/Enemy/Skeleton Crew/Skeleton - Base/Idle/::1699383625
+Idle-Sheet.png::CompressedTexture2D::5140230668152474492::1699382254::1699383625::1::::<><>::
+::res://Assets/Enemy/Skeleton Crew/Skeleton - Base/Run/::1699383625
+Run-Sheet.png::CompressedTexture2D::2746598295434615452::1699382254::1699383625::1::::<><>::
+::res://Assets/Enemy/Skeleton Crew/Skeleton - Mage/::1699382254
+::res://Assets/Enemy/Skeleton Crew/Skeleton - Mage/Death/::1699383625
+Death-Sheet.png::CompressedTexture2D::4613470202629970908::1699382254::1699383625::1::::<><>::
+::res://Assets/Enemy/Skeleton Crew/Skeleton - Mage/Idle/::1699383625
+Idle-Sheet.png::CompressedTexture2D::8029310484446223403::1699382254::1699383625::1::::<><>::
+::res://Assets/Enemy/Skeleton Crew/Skeleton - Mage/Run/::1699383625
+Run-Sheet.png::CompressedTexture2D::3397939408977705435::1699382254::1699383625::1::::<><>::
+::res://Assets/Enemy/Skeleton Crew/Skeleton - Rogue/::1699382254
+::res://Assets/Enemy/Skeleton Crew/Skeleton - Rogue/Death/::1699383625
+Death-Sheet.png::CompressedTexture2D::188799930906902926::1699382254::1699383625::1::::<><>::
+::res://Assets/Enemy/Skeleton Crew/Skeleton - Rogue/Idle/::1699383625
+Idle-Sheet.png::CompressedTexture2D::5058127672289752872::1699382254::1699383625::1::::<><>::
+::res://Assets/Enemy/Skeleton Crew/Skeleton - Rogue/Run/::1699383625
+Run-Sheet.png::CompressedTexture2D::860107878392469778::1699382254::1699383625::1::::<><>::
+::res://Assets/Enemy/Skeleton Crew/Skeleton - Warrior/::1699382254
+::res://Assets/Enemy/Skeleton Crew/Skeleton - Warrior/Death/::1699383625
+Death-Sheet.png::CompressedTexture2D::4736425612244759670::1699382254::1699383625::1::::<><>::
+::res://Assets/Enemy/Skeleton Crew/Skeleton - Warrior/Idle/::1699383625
+Idle-Sheet.png::CompressedTexture2D::1703701257601751794::1699382254::1699383625::1::::<><>::
+::res://Assets/Enemy/Skeleton Crew/Skeleton - Warrior/Run/::1699383625
+Run-Sheet.png::CompressedTexture2D::1803244051769615744::1699382254::1699383625::1::::<><>::
+::res://Assets/Environment/::1699382254
+::res://Assets/Environment/Dungeon Prison/::1699382254
+::res://Assets/Environment/Dungeon Prison/Assets/::1699383625
+Props.png::CompressedTexture2D::3338804273121097741::1699382254::1699383625::1::::<><>::
+Tiles.png::CompressedTexture2D::2814228242149026113::1699382254::1699383625::1::::<><>::
+::res://Assets/Environment/Green Woods/::1699382254
+::res://Assets/Environment/Green Woods/Assets/::1699383625
+Props.png::CompressedTexture2D::6044761538553343276::1699382254::1699383625::1::::<><>::
+Tiles.png::CompressedTexture2D::9200685436982277459::1699382254::1699383625::1::::<><>::
+Trees.png::CompressedTexture2D::4775507363809002413::1699382254::1699383625::1::::<><>::
+::res://Assets/Heroes/::1699382254
+::res://Assets/Heroes/Knight/::1699382254
+::res://Assets/Heroes/Knight/Death/::1699383625
+Death-Sheet.png::CompressedTexture2D::2377847451062680187::1699382254::1699383625::1::::<><>::
+::res://Assets/Heroes/Knight/Idle/::1699383625
+Idle-Sheet.png::CompressedTexture2D::4982699360957489836::1699382254::1699383625::1::::<><>::
+::res://Assets/Heroes/Knight/Run/::1699383625
+Run-Sheet.png::CompressedTexture2D::9150466986280579683::1699382254::1699383625::1::::<><>::
+::res://Assets/Heroes/Rogue/::1699382254
+::res://Assets/Heroes/Rogue/Death/::1699383625
+Death-Sheet.png::CompressedTexture2D::7621116743007313062::1699382254::1699383625::1::::<><>::
+::res://Assets/Heroes/Rogue/Idle/::1699383625
+Idle-Sheet.png::CompressedTexture2D::1309777281193787844::1699382254::1699383625::1::::<><>::
+::res://Assets/Heroes/Rogue/Run/::1699383625
+Run-Sheet.png::CompressedTexture2D::497637739856165707::1699382254::1699383625::1::::<><>::
+::res://Assets/Heroes/Wizzard/::1699382254
+::res://Assets/Heroes/Wizzard/Death/::1699383625
+Death-Sheet.png::CompressedTexture2D::1914386400363599106::1699382254::1699383625::1::::<><>::
+::res://Assets/Heroes/Wizzard/Idle/::1699383625
+Idle-Sheet.png::CompressedTexture2D::9075629793268098680::1699382254::1699383625::1::::<><>::
+::res://Assets/Heroes/Wizzard/Run/::1699383625
+Run-Sheet.png::CompressedTexture2D::4365005921890692472::1699382254::1699383625::1::::<><>::
+::res://Assets/robinHood_ v1.1/::1699643917
+bishopOfHerefordHand_.png::CompressedTexture2D::8638661137218967164::1699643916::1699643932::1::::<><>::
+bishopOfHereford_.png::CompressedTexture2D::7670068484671291528::1699643916::1699643932::1::::<><>::
+friarTuckHand_.png::CompressedTexture2D::5482408500942876295::1699643916::1699643932::1::::<><>::
+friarTuck_.png::CompressedTexture2D::6690830782260676020::1699643916::1699643932::1::::<><>::
+littleJohnHand_.png::CompressedTexture2D::9117961364930136486::1699643917::1699643932::1::::<><>::
+littleJohn_.png::CompressedTexture2D::3722796775885383009::1699643916::1699643932::1::::<><>::
+maidMarianHand_.png::CompressedTexture2D::3467650262076891901::1699643917::1699643932::1::::<><>::
+maidMarian_.png::CompressedTexture2D::641173113415150228::1699643917::1699643932::1::::<><>::
+prioressOfKirkleesHand_.png::CompressedTexture2D::8186009908415187081::1699643917::1699643932::1::::<><>::
+prioressOfKirklees_.png::CompressedTexture2D::6018056226018873781::1699643917::1699643932::1::::<><>::
+richardIOfEnglandHand_.png::CompressedTexture2D::6629504538184832341::1699643917::1699643932::1::::<><>::
+richardIOfEngland_.png::CompressedTexture2D::341554784338548049::1699643917::1699643932::1::::<><>::
+robinHoodHand_.png::CompressedTexture2D::3747444907366015023::1699643917::1699643932::1::::<><>::
+robinHood_.png::CompressedTexture2D::7138215595339083677::1699643917::1699643932::1::::<><>::
+sheriffOfNottinghamHand_.png::CompressedTexture2D::6724873025299528073::1699643917::1699643932::1::::<><>::
+sheriffOfNottingham_.png::CompressedTexture2D::3392400396787137415::1699643917::1699643932::1::::<><>::
+weapons_.png::CompressedTexture2D::158059128058523897::1699643917::1699643932::1::::<><>::
+::res://Assets/Weapons/::1699382254
+::res://Assets/Weapons/Bone/::1699383625
+Bone.png::CompressedTexture2D::6728663074971279826::1699382254::1699383625::1::::<><>::
+::res://Assets/Weapons/Hands/::1699383625
+Hands.png::CompressedTexture2D::4157810257779067149::1699382254::1699383625::1::::<><>::
+::res://Assets/Weapons/Wood/::1699383625
+Wood.png::CompressedTexture2D::8563006574705894729::1699382254::1699383625::1::::<><>::
+::res://Scenes/::1699643897
+Main.tscn::PackedScene::3701399963238284884::1699643185::0::1::::<><>::uid://d0hghgi803gub::::res://Scenes/Player.tscn
+Player.tscn::PackedScene::8928810917854885969::1699643897::0::1::::<><>::res://Scenes/Player.gd
+Player.gd::GDScript::-1::1699643055::0::1::::Player<>CharacterBody2D<>::
+tile_map.tscn::PackedScene::5972861609886403797::1699385879::0::1::::<><>::uid://swp3ttpq5xvo::::res://Assets/Heroes/Rogue/Idle/Idle-Sheet.png
+::res://Scripts/::1699377675
